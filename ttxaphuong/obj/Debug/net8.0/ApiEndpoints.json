@@ -1,0 +1,2090 @@
+[
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "AssignAdminRole",
+    "RelativePath": "api/Auth/AssignAdminRole/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "AssignManagerPermissions",
+    "RelativePath": "api/Auth/AssignManagerPermissions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ttxaphuong.Models.Accounts.AssignPermissionsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "DeleteAccount",
+    "RelativePath": "api/Auth/DeleteAccount/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "DisableAccount",
+    "RelativePath": "api/Auth/DisableAccount/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Auth/ForgotPassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forgotPasswordModel",
+        "Type": "ttxaphuong.Models.Accounts.ForgotPasswordModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "GetAccounts",
+    "RelativePath": "api/Auth/GetAccounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ttxaphuong.DTO.Accounts.AccountsDTO, ttxaphuong, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "GetAccountsById",
+    "RelativePath": "api/Auth/GetAccountsById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ttxaphuong.DTO.Accounts.AccountsDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "GetManagerPermissions",
+    "RelativePath": "api/Auth/GetManagerPermissions/GetManagerPermissions/{managerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "managerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authDto",
+        "Type": "ttxaphuong.Models.Accounts.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Auth/RefreshToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenModel",
+        "Type": "ttxaphuong.Models.Accounts.RefreshTokenModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerModel",
+        "Type": "ttxaphuong.Models.Accounts.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "UpdateAccount",
+    "RelativePath": "api/Auth/UpdateAccount/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "accountsDTO",
+        "Type": "ttxaphuong.DTO.Accounts.AccountsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "UpdatePassword",
+    "RelativePath": "api/Auth/UpdatePassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatePassword",
+        "Type": "ttxaphuong.Models.Accounts.UpdatePasswordModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.AuthController",
+    "Method": "VerifyResetCode",
+    "RelativePath": "api/Auth/VerifyResetCode/VerifyResetCode",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ttxaphuong.Models.Accounts.VerifyResetCodeModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Categories_introduceController",
+    "Method": "CreateCategories_introduces",
+    "RelativePath": "api/Categories_introduce/CreateCategories_introduces",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categories_Introduce",
+        "Type": "ttxaphuong.DTO.Introduces.Categories_introduceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Categories_introduceController",
+    "Method": "DeleteCategories_introduces",
+    "RelativePath": "api/Categories_introduce/DeleteCategories_introduces/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Categories_introduceController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Categories_introduce/GetCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ttxaphuong.DTO.Introduces.Categories_introduceDTO, ttxaphuong, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Categories_introduceController",
+    "Method": "GetCategories_introduces",
+    "RelativePath": "api/Categories_introduce/GetCategories_introduces",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Categories_introduceController",
+    "Method": "GetCategories_introducesById",
+    "RelativePath": "api/Categories_introduce/GetCategories_introducesById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Categories_introduceController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/Categories_introduce/GetCategoryById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Categories_introduceController",
+    "Method": "UpdateCategories_introduces",
+    "RelativePath": "api/Categories_introduce/UpdateCategories_introduces/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "categories_Introduce",
+        "Type": "ttxaphuong.DTO.Introduces.Categories_introduceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.CategoriesController",
+    "Method": "CreateCategories",
+    "RelativePath": "api/Categories/CreateCategories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categories",
+        "Type": "ttxaphuong.DTO.News_events.CategoriesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.CategoriesController",
+    "Method": "DeleteCategories",
+    "RelativePath": "api/Categories/DeleteCategories",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.CategoriesController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Categories/DeleteCategory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.CategoriesController",
+    "Method": "GetAllSubCategoryNamesByName",
+    "RelativePath": "api/Categories/GetAllSubCategoryNamesByName/{parentName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parentName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.CategoriesController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Categories/GetCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ttxaphuong.DTO.News_events.CategoriesDTO, ttxaphuong, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.CategoriesController",
+    "Method": "GetCategoriesById",
+    "RelativePath": "api/Categories/GetCategoriesById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.CategoriesController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/Categories/GetCategoryById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.CategoriesController",
+    "Method": "GetCategoryHierarchy",
+    "RelativePath": "api/Categories/GetCategoryHierarchy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.CategoriesController",
+    "Method": "UpdateCategories",
+    "RelativePath": "api/Categories/UpdateCategories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "categories",
+        "Type": "ttxaphuong.DTO.News_events.CategoriesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_documentsController",
+    "Method": "CreateCategory_documents",
+    "RelativePath": "api/Category_documents/CreateCategory_documents",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categories_documents",
+        "Type": "ttxaphuong.DTO.Documents.Category_documentsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_documentsController",
+    "Method": "DeleteCategory_documents",
+    "RelativePath": "api/Category_documents/DeleteCategory_documents/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_documentsController",
+    "Method": "GetAllSubCat_DocumentNamesByName",
+    "RelativePath": "api/Category_documents/GetAllSubCat_DocumentNamesByName/{parentName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parentName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_documentsController",
+    "Method": "GetCat_DocHierarchy",
+    "RelativePath": "api/Category_documents/GetCat_DocHierarchy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_documentsController",
+    "Method": "GetCategory_documents",
+    "RelativePath": "api/Category_documents/GetCategory_documents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ttxaphuong.DTO.Documents.Category_documentsDTO, ttxaphuong, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_documentsController",
+    "Method": "GetCategory_documentsById",
+    "RelativePath": "api/Category_documents/GetCategory_documentsById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_documentsController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/Category_documents/GetCategoryById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_documentsController",
+    "Method": "UpdateCategory_documents",
+    "RelativePath": "api/Category_documents/UpdateCategory_documents/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "categories_documents",
+        "Type": "ttxaphuong.DTO.Documents.Category_documentsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_fieldController",
+    "Method": "CreateCategory_field",
+    "RelativePath": "api/Category_field/CreateCategory_field",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category_Field",
+        "Type": "ttxaphuong.DTO.Category_field.Category_fieldDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_fieldController",
+    "Method": "DeleteCategory_field",
+    "RelativePath": "api/Category_field/DeleteCategory_field/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_fieldController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/Category_field/GetAllCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ttxaphuong.DTO.Category_field.Category_fieldDTO, ttxaphuong, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_fieldController",
+    "Method": "GetAllSubCategoryIdById",
+    "RelativePath": "api/Category_field/GetAllSubCategoryIdById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_fieldController",
+    "Method": "GetAllSubCategoryNamesByName",
+    "RelativePath": "api/Category_field/GetAllSubCategoryNamesByName/{parentName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parentName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_fieldController",
+    "Method": "GetCategory_field",
+    "RelativePath": "api/Category_field/GetCategory_field",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ttxaphuong.DTO.Category_field.Category_fieldDTO, ttxaphuong, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_fieldController",
+    "Method": "GetCategory_fieldById",
+    "RelativePath": "api/Category_field/GetCategory_fieldById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_fieldController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/Category_field/GetCategoryById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_fieldController",
+    "Method": "GetCategoryHierarchy",
+    "RelativePath": "api/Category_field/GetCategoryHierarchy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.Category_fieldController",
+    "Method": "UpdateCategory_field",
+    "RelativePath": "api/Category_field/UpdateCategory_field/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "category_Field",
+        "Type": "ttxaphuong.DTO.Category_field.Category_fieldDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "CreateDocuments",
+    "RelativePath": "api/Documents/CreateDocuments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documents",
+        "Type": "ttxaphuong.DTO.Documents.DocumentsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "DeleteDocuments",
+    "RelativePath": "api/Documents/DeleteDocuments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "GetDocByName",
+    "RelativePath": "api/Documents/GetDocByName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "GetDocByNameCategory",
+    "RelativePath": "api/Documents/GetDocByNameCategory/{nameCategogy}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nameCategogy",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "GetDocumentFile",
+    "RelativePath": "api/Documents/GetDocumentFile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "GetDocuments",
+    "RelativePath": "api/Documents/GetDocuments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isVisible",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "GetDocumentsById",
+    "RelativePath": "api/Documents/GetDocumentsById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "GetFeaturedDoc",
+    "RelativePath": "api/Documents/GetFeaturedDoc/featured",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ttxaphuong.DTO.Documents.DocumentsDTO, ttxaphuong, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "GetRelatedDoc",
+    "RelativePath": "api/Documents/GetRelatedDoc/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "GetTop5LatestDoc",
+    "RelativePath": "api/Documents/GetTop5LatestDoc",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "GetTop5LatestDocByCategory",
+    "RelativePath": "api/Documents/GetTop5LatestDocByCategory/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "SetVisibility",
+    "RelativePath": "api/Documents/SetVisibility/SetVisibility/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isVisible",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "UpdateDocuments",
+    "RelativePath": "api/Documents/UpdateDocuments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "documents",
+        "Type": "ttxaphuong.DTO.Documents.DocumentsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.DocumentsController",
+    "Method": "UploadPdfDocument",
+    "RelativePath": "api/Documents/UploadPdfDocument/UploadPdfDocument",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pdfFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FeedbacksController",
+    "Method": "ApproveFeedback",
+    "RelativePath": "api/Feedbacks/ApproveFeedback/ApproveFeedback/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FeedbacksController",
+    "Method": "CreateFeedback",
+    "RelativePath": "api/Feedbacks/CreateFeedback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedbacksDTO",
+        "Type": "ttxaphuong.DTO.Feedbacks.FeedbacksDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FeedbacksController",
+    "Method": "GetFeedbacks",
+    "RelativePath": "api/Feedbacks/GetFeedbacks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FeedbacksController",
+    "Method": "GetFeedbackStatistics",
+    "RelativePath": "api/Feedbacks/GetFeedbackStatistics/GetFeedbackStatistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FeedbacksController",
+    "Method": "RejectFeedback",
+    "RelativePath": "api/Feedbacks/RejectFeedback/RejectFeedback/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FolderController",
+    "Method": "CreateFolder",
+    "RelativePath": "api/Folder/CreateFolder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "folder",
+        "Type": "ttxaphuong.DTO.Uploads.FolderDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FolderController",
+    "Method": "DeleteFolder",
+    "RelativePath": "api/Folder/DeleteFolder/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FolderController",
+    "Method": "GetFolder",
+    "RelativePath": "api/Folder/GetFolder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ttxaphuong.DTO.Uploads.FolderDTO, ttxaphuong, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FolderController",
+    "Method": "GetFolderById",
+    "RelativePath": "api/Folder/GetFolderById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FolderController",
+    "Method": "UpdateFolder",
+    "RelativePath": "api/Folder/UpdateFolder/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "folder",
+        "Type": "ttxaphuong.DTO.Uploads.FolderDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FolderPdfController",
+    "Method": "CreateFolderPdf",
+    "RelativePath": "api/FolderPdf/CreateFolderPdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "folder",
+        "Type": "ttxaphuong.DTO.Uploads.FolderPdfDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FolderPdfController",
+    "Method": "DeleteFolderPdf",
+    "RelativePath": "api/FolderPdf/DeleteFolderPdf/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FolderPdfController",
+    "Method": "GetFolderPdf",
+    "RelativePath": "api/FolderPdf/GetFolderPdf",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ttxaphuong.DTO.Uploads.FolderPdfDTO, ttxaphuong, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FolderPdfController",
+    "Method": "GetFolderPdfById",
+    "RelativePath": "api/FolderPdf/GetFolderPdfById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.FolderPdfController",
+    "Method": "UpdateFolderPdf",
+    "RelativePath": "api/FolderPdf/UpdateFolderPdf/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "folder",
+        "Type": "ttxaphuong.DTO.Uploads.FolderPdfDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.IntroduceController",
+    "Method": "CreateIntroduce",
+    "RelativePath": "api/Introduce/CreateIntroduce",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "abc",
+        "Type": "ttxaphuong.DTO.Introduces.IntroduceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.IntroduceController",
+    "Method": "DeleteIntroduce",
+    "RelativePath": "api/Introduce/DeleteIntroduce/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.IntroduceController",
+    "Method": "GetIntroByNameAsync",
+    "RelativePath": "api/Introduce/GetIntroByName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.IntroduceController",
+    "Method": "GetIntroByNameCategogyAsync",
+    "RelativePath": "api/Introduce/GetIntroByNameCategogy/{categoryName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.IntroduceController",
+    "Method": "GetIntroduce",
+    "RelativePath": "api/Introduce/GetIntroduce",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.IntroduceController",
+    "Method": "GetIntroduceById",
+    "RelativePath": "api/Introduce/GetIntroduceById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.IntroduceController",
+    "Method": "GetRelatedIntroduce",
+    "RelativePath": "api/Introduce/GetRelatedIntroduce/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.IntroduceController",
+    "Method": "UpdateIntroduce",
+    "RelativePath": "api/Introduce/UpdateIntroduce/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "abc",
+        "Type": "ttxaphuong.DTO.Introduces.IntroduceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.IntroduceController",
+    "Method": "UploadImage",
+    "RelativePath": "api/Introduce/UploadImage/upload-image",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.News_eventsController",
+    "Method": "CreateNews_Events",
+    "RelativePath": "api/News_events/CreateNews_Events",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "news_EventsDTO",
+        "Type": "ttxaphuong.DTO.News_events.News_eventsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.News_eventsController",
+    "Method": "DeleteNews_Events",
+    "RelativePath": "api/News_events/DeleteNews_Events/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.News_eventsController",
+    "Method": "GetFeaturedNews",
+    "RelativePath": "api/News_events/GetFeaturedNews/featured",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ttxaphuong.DTO.News_events.News_eventsDTO, ttxaphuong, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.News_eventsController",
+    "Method": "GetNews_Events",
+    "RelativePath": "api/News_events/GetNews_Events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isVisible",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.News_eventsController",
+    "Method": "GetNews_EventsByName",
+    "RelativePath": "api/News_events/GetNews_EventsByName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.News_eventsController",
+    "Method": "GetNews_EventsByNameCategory",
+    "RelativePath": "api/News_events/GetNews_EventsByNameCategory/{nameCategogy}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nameCategogy",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.News_eventsController",
+    "Method": "GetRelatedNews_Events",
+    "RelativePath": "api/News_events/GetRelatedNews_Events/{title}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.News_eventsController",
+    "Method": "GetTop5LatestNews_Events",
+    "RelativePath": "api/News_events/GetTop5LatestNews_Events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.News_eventsController",
+    "Method": "GetTop5LatestNews_EventsByCategory",
+    "RelativePath": "api/News_events/GetTop5LatestNews_EventsByCategory/{categoryName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.News_eventsController",
+    "Method": "GetTopViewedNews",
+    "RelativePath": "api/News_events/GetTopViewedNews/top-viewed/{count}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.News_eventsController",
+    "Method": "SetVisibility",
+    "RelativePath": "api/News_events/SetVisibility/SetVisibility/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isVisible",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.News_eventsController",
+    "Method": "UpdateNews_Events",
+    "RelativePath": "api/News_events/UpdateNews_Events/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "news_EventsDTO",
+        "Type": "ttxaphuong.DTO.News_events.News_eventsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.News_eventsController",
+    "Method": "UploadImage",
+    "RelativePath": "api/News_events/UploadImage/upload-image",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.ProceduresController",
+    "Method": "CreateProcedures",
+    "RelativePath": "api/Procedures/CreateProcedures",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proceduresDTO",
+        "Type": "ttxaphuong.DTO.Procedures.ProceduresDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.ProceduresController",
+    "Method": "DeleteProcedures",
+    "RelativePath": "api/Procedures/DeleteProcedures/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.ProceduresController",
+    "Method": "GetProcedures",
+    "RelativePath": "api/Procedures/GetProcedures",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isVisible",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.ProceduresController",
+    "Method": "GetProceduresById_thutuc",
+    "RelativePath": "api/Procedures/GetProceduresById_thutuc/{id_thutuc}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_thutuc",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.ProceduresController",
+    "Method": "GetProceduresById",
+    "RelativePath": "api/Procedures/GetProceduresById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.ProceduresController",
+    "Method": "GetProceduresByIdField",
+    "RelativePath": "api/Procedures/GetProceduresByIdField/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.ProceduresController",
+    "Method": "SetVisibility",
+    "RelativePath": "api/Procedures/SetVisibility/SetVisibility/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isVisible",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.ProceduresController",
+    "Method": "UpdateProcedures",
+    "RelativePath": "api/Procedures/UpdateProcedures/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "proceduresDTO",
+        "Type": "ttxaphuong.DTO.Procedures.ProceduresDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.StatisticsController",
+    "Method": "GetNewsViewsByCategory",
+    "RelativePath": "api/Statistics/GetNewsViewsByCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.StatisticsController",
+    "Method": "GetNewsViewsOverTime",
+    "RelativePath": "api/Statistics/GetNewsViewsOverTime",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.StatisticsController",
+    "Method": "GetStatistics",
+    "RelativePath": "api/Statistics/GetStatistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.StatisticsController",
+    "Method": "GetTotalDocuments",
+    "RelativePath": "api/Statistics/GetTotalDocuments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.StatisticsController",
+    "Method": "GetTotalIntroduces",
+    "RelativePath": "api/Statistics/GetTotalIntroduces",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.StatisticsController",
+    "Method": "GetTotalNewsEvents",
+    "RelativePath": "api/Statistics/GetTotalNewsEvents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.StatisticsController",
+    "Method": "GetTotalProcedures",
+    "RelativePath": "api/Statistics/GetTotalProcedures",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.UploadFileController",
+    "Method": "DeletePostImage",
+    "RelativePath": "api/UploadFile/DeletePostImage/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.UploadFileController",
+    "Method": "GetImages",
+    "RelativePath": "api/UploadFile/GetImages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.UploadFileController",
+    "Method": "MoveImage",
+    "RelativePath": "api/UploadFile/MoveImage/MoveImage/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "targetFolderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.UploadFileController",
+    "Method": "UpdatePostImage",
+    "RelativePath": "api/UploadFile/UpdatePostImage/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "postImageDTO",
+        "Type": "ttxaphuong.DTO.Uploads.PostImageDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.UploadFileController",
+    "Method": "UploadImage",
+    "RelativePath": "api/UploadFile/UploadImage/UploadImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "folderId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ttxaphuong.DTO.Uploads.PostImageDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.UploadFilePdfController",
+    "Method": "DeletePostPdf",
+    "RelativePath": "api/UploadFilePdf/DeletePostPdf/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.UploadFilePdfController",
+    "Method": "GetPdf",
+    "RelativePath": "api/UploadFilePdf/GetPdf",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.UploadFilePdfController",
+    "Method": "MovePdf",
+    "RelativePath": "api/UploadFilePdf/MovePdf/MovePdf/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "targetFolderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.UploadFilePdfController",
+    "Method": "UpdatePostPdf",
+    "RelativePath": "api/UploadFilePdf/UpdatePostPdf/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "postPdfDTO",
+        "Type": "ttxaphuong.DTO.Uploads.PostPdfDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.UploadFilePdfController",
+    "Method": "UploadPdf",
+    "RelativePath": "api/UploadFilePdf/UploadPdf/UploadPdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "folderId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ttxaphuong.DTO.Uploads.PostPdfDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.WebsiteSettingsController",
+    "Method": "GetWebsiteSettings",
+    "RelativePath": "api/WebsiteSettings/GetWebsiteSettings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.WebsiteSettingsController",
+    "Method": "UpdateWebsiteSettings",
+    "RelativePath": "api/WebsiteSettings/UpdateWebsiteSettings",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settings",
+        "Type": "ttxaphuong.DTO.WebsiteSettingsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ttxaphuong.Controllers.WebsiteSettingsController",
+    "Method": "UploadImage",
+    "RelativePath": "api/WebsiteSettings/UploadImage/upload-image",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

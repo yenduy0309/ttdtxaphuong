@@ -1,0 +1,52 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ttxaphuong/uploads/ Danh mục hình ảnh 1/ Danh mục hình ảnh 1.1/2166dfba-8b08-42d3-9045-477bfdf4daa1.j7b727ritv.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ Danh mục hình ảnh 1\ Danh mục hình ảnh 1.1\2166dfba-8b08-42d3-9045-477bfdf4daa1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j7b727ritv"},{"Name":"integrity","Value":"sha256-gd0c\u002BujLgCr8yokguqoNxIrDi159cqjqLgeB0mMWUvo="},{"Name":"label","Value":"_content/ttxaphuong/uploads/ Danh m\u1EE5c h\u00ECnh \u1EA3nh 1/ Danh m\u1EE5c h\u00ECnh \u1EA3nh 1.1/2166dfba-8b08-42d3-9045-477bfdf4daa1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1136834"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gd0c\u002BujLgCr8yokguqoNxIrDi159cqjqLgeB0mMWUvo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 16:21:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ttxaphuong/uploads/ Danh mục hình ảnh 1/ Danh mục hình ảnh 1.1/2166dfba-8b08-42d3-9045-477bfdf4daa1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ Danh mục hình ảnh 1\ Danh mục hình ảnh 1.1\2166dfba-8b08-42d3-9045-477bfdf4daa1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gd0c\u002BujLgCr8yokguqoNxIrDi159cqjqLgeB0mMWUvo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1136834"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gd0c\u002BujLgCr8yokguqoNxIrDi159cqjqLgeB0mMWUvo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 16:21:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ttxaphuong/uploads/ Danh mục hình ảnh 1/ Danh mục hình ảnh 1.1/91bdf8f3-1c5b-4772-8b83-89102509f5ab.g8rae2tqq8.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ Danh mục hình ảnh 1\ Danh mục hình ảnh 1.1\91bdf8f3-1c5b-4772-8b83-89102509f5ab.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g8rae2tqq8"},{"Name":"integrity","Value":"sha256-YA5lglyiOQhnQxRkEolbx\u002BbP\u002BSsYb2tYTQx7p9u9w7I="},{"Name":"label","Value":"_content/ttxaphuong/uploads/ Danh m\u1EE5c h\u00ECnh \u1EA3nh 1/ Danh m\u1EE5c h\u00ECnh \u1EA3nh 1.1/91bdf8f3-1c5b-4772-8b83-89102509f5ab.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"83253"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022YA5lglyiOQhnQxRkEolbx\u002BbP\u002BSsYb2tYTQx7p9u9w7I=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 16:17:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ttxaphuong/uploads/ Danh mục hình ảnh 1/ Danh mục hình ảnh 1.1/91bdf8f3-1c5b-4772-8b83-89102509f5ab.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ Danh mục hình ảnh 1\ Danh mục hình ảnh 1.1\91bdf8f3-1c5b-4772-8b83-89102509f5ab.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YA5lglyiOQhnQxRkEolbx\u002BbP\u002BSsYb2tYTQx7p9u9w7I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"83253"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022YA5lglyiOQhnQxRkEolbx\u002BbP\u002BSsYb2tYTQx7p9u9w7I=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 16:17:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ttxaphuong/uploads/ Danh mục hình ảnh 1/ Danh mục hình ảnh 1.1/de084180-3172-4b25-9f23-2abaeb294e9d.j7b727ritv.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ Danh mục hình ảnh 1\ Danh mục hình ảnh 1.1\de084180-3172-4b25-9f23-2abaeb294e9d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j7b727ritv"},{"Name":"integrity","Value":"sha256-gd0c\u002BujLgCr8yokguqoNxIrDi159cqjqLgeB0mMWUvo="},{"Name":"label","Value":"_content/ttxaphuong/uploads/ Danh m\u1EE5c h\u00ECnh \u1EA3nh 1/ Danh m\u1EE5c h\u00ECnh \u1EA3nh 1.1/de084180-3172-4b25-9f23-2abaeb294e9d.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1136834"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gd0c\u002BujLgCr8yokguqoNxIrDi159cqjqLgeB0mMWUvo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 16:22:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ttxaphuong/uploads/ Danh mục hình ảnh 1/ Danh mục hình ảnh 1.1/de084180-3172-4b25-9f23-2abaeb294e9d.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ Danh mục hình ảnh 1\ Danh mục hình ảnh 1.1\de084180-3172-4b25-9f23-2abaeb294e9d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gd0c\u002BujLgCr8yokguqoNxIrDi159cqjqLgeB0mMWUvo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1136834"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gd0c\u002BujLgCr8yokguqoNxIrDi159cqjqLgeB0mMWUvo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 16:22:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ttxaphuong/uploads/ Danh mục hình ảnh 1/00e0395e-7810-42cc-be45-6a6981e6abe3.0z1rfrevov.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ Danh mục hình ảnh 1\00e0395e-7810-42cc-be45-6a6981e6abe3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0z1rfrevov"},{"Name":"integrity","Value":"sha256-vJ2j8OjGvMV4PYBU7Ln37lvkVLt1IDNh4JPD6WG//qU="},{"Name":"label","Value":"_content/ttxaphuong/uploads/ Danh m\u1EE5c h\u00ECnh \u1EA3nh 1/00e0395e-7810-42cc-be45-6a6981e6abe3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"286530"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vJ2j8OjGvMV4PYBU7Ln37lvkVLt1IDNh4JPD6WG//qU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 16:15:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ttxaphuong/uploads/ Danh mục hình ảnh 1/00e0395e-7810-42cc-be45-6a6981e6abe3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ Danh mục hình ảnh 1\00e0395e-7810-42cc-be45-6a6981e6abe3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vJ2j8OjGvMV4PYBU7Ln37lvkVLt1IDNh4JPD6WG//qU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"286530"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vJ2j8OjGvMV4PYBU7Ln37lvkVLt1IDNh4JPD6WG//qU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 16:15:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

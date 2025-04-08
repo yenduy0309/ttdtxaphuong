@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ThucTapThongTinDienTuXaPhuong\\TTDT_XaPhuong_Demo\\demo\\ttxaphuong\\ttxaphuong\\wwwroot\\uploads\\ Danh mục hình ảnh 1\\ Danh mục hình ảnh 1.1\\2166dfba-8b08-42d3-9045-477bfdf4daa1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ Danh mục hình ảnh 1\\ Danh mục hình ảnh 1.1\\2166dfba-8b08-42d3-9045-477bfdf4daa1.jpg"
+    },
+    {
+      "Id": "D:\\ThucTapThongTinDienTuXaPhuong\\TTDT_XaPhuong_Demo\\demo\\ttxaphuong\\ttxaphuong\\wwwroot\\uploads\\ Danh mục hình ảnh 1\\ Danh mục hình ảnh 1.1\\91bdf8f3-1c5b-4772-8b83-89102509f5ab.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ Danh mục hình ảnh 1\\ Danh mục hình ảnh 1.1\\91bdf8f3-1c5b-4772-8b83-89102509f5ab.jpg"
+    },
+    {
+      "Id": "D:\\ThucTapThongTinDienTuXaPhuong\\TTDT_XaPhuong_Demo\\demo\\ttxaphuong\\ttxaphuong\\wwwroot\\uploads\\ Danh mục hình ảnh 1\\ Danh mục hình ảnh 1.1\\de084180-3172-4b25-9f23-2abaeb294e9d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ Danh mục hình ảnh 1\\ Danh mục hình ảnh 1.1\\de084180-3172-4b25-9f23-2abaeb294e9d.jpg"
+    },
+    {
+      "Id": "D:\\ThucTapThongTinDienTuXaPhuong\\TTDT_XaPhuong_Demo\\demo\\ttxaphuong\\ttxaphuong\\wwwroot\\uploads\\ Danh mục hình ảnh 1\\00e0395e-7810-42cc-be45-6a6981e6abe3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ Danh mục hình ảnh 1\\00e0395e-7810-42cc-be45-6a6981e6abe3.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ttxaphuong.props",
+      "PackagePath": "build\\ttxaphuong.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ttxaphuong.props",
+      "PackagePath": "buildMultiTargeting\\ttxaphuong.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ttxaphuong.props",
+      "PackagePath": "buildTransitive\\ttxaphuong.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ttxaphuong.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ttxaphuong.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

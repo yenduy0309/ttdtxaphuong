@@ -1,0 +1,6 @@
+@ttxaphuong_HostAddress = http://localhost:5150
+
+GET {{ttxaphuong_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
