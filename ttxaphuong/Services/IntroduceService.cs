@@ -161,26 +161,30 @@ namespace ttxaphuong.Services
 
         /*************************************/
         //lấy bài giới thiệu = name danh mục
-        public async Task<List<IntroduceDTO>> GetIntroByNameCategogyAsync(string nameCatelogy)
+        public async Task<List<IntroduceDTO>> GetIntroByNameCategogyAsync(string nameCategory)
         {
-            try
-            {
-                var Introduce = await _context.Introduces
-                    .Include(h => h.Categories_IntroduceModel) // Đảm bảo có Include
-                    .Where(h => h.Categories_IntroduceModel != null && h.Categories_IntroduceModel.Name_cate_introduce == nameCatelogy)
-                    .ToListAsync();
 
-                if (!Introduce.Any())
-                {
-                    throw new NotFoundException("Không tìm thấy bài giới thiệu.");
-                }
+            // Normalize tên danh mục được truyền vào
+            string normalizedInput = NormalizeTitle(nameCategory);
 
-                return _mapper.Map<List<IntroduceDTO>>(Introduce);
-            }
-            catch (Exception ex)
+            // Lấy danh sách bài giới thiệu và danh mục liên quan
+            var introduces = await _context.Introduces
+                .Include(h => h.Categories_IntroduceModel)
+                .ToListAsync();
+
+            // Lọc theo tên danh mục đã normalize
+            var filtered = introduces
+                .Where(h => h.Categories_IntroduceModel != null &&
+                            NormalizeTitle(h.Categories_IntroduceModel.Name_cate_introduce) == normalizedInput)
+                .ToList();
+
+            if (!filtered.Any())
             {
-                throw new Exception("Lỗi khi lấy thông tin", ex);
+                throw new NotFoundException("Không tìm thấy bài giới thiệu.");
             }
+
+            return _mapper.Map<List<IntroduceDTO>>(filtered);
+
         }
 
         public async Task<IntroduceDTO> GetIntroByNameAsync(string name)
