@@ -71,18 +71,51 @@ namespace ttxaphuong.Services
             return categoryViews.Cast<object>().ToList();
         }
 
-        public async Task<List<object>> GetNewsViewsOverTimeAsync()
-        {
-            var viewsOverTime = await _context.News_Events
-                .GroupBy(n => n.Create_at.Date) // ✅ Nhóm theo ngày
-                .Select(group => new
-                {
-                    Date = group.Key,
-                    TotalViews = group.Sum(n => n.View)
-                })
-                .ToListAsync();
+        //public async Task<List<object>> GetNewsViewsOverTimeAsync()
+        //{
+        //    var viewsOverTime = await _context.News_Events
+        //        .GroupBy(n => n.Create_at.Date) // ✅ Nhóm theo ngày
+        //        .Select(group => new
+        //        {
+        //            Date = group.Key,
+        //            TotalViews = group.Sum(n => n.View)
+        //        })
+        //        .ToListAsync();
 
-            return viewsOverTime.Cast<object>().ToList();
+        //    return viewsOverTime.Cast<object>().ToList();
+        //}
+
+        public async Task<List<object>> GetNewsAndDocumentsViewsOverTimeAsync()
+        {
+            // Tin tức
+            var newsViews = await _context.News_Events
+                .GroupBy(n => n.Create_at.Date)
+                .Select(g => new {
+                    Date = g.Key,
+                    TotalViewsNews = g.Sum(n => n.View) ?? 0
+                }).ToListAsync();
+
+            // Văn bản
+            var docViews = await _context.Documents
+                .GroupBy(d => d.Create_at.Date)
+                .Select(g => new {
+                    Date = g.Key,
+                    TotalViewsDocs = g.Sum(d => d.View_documents) ?? 0
+                }).ToListAsync();
+
+            // Gộp theo ngày
+            var combined = newsViews
+                .Union(docViews.Select(d => new { d.Date, TotalViewsNews = 0 })) // để merge các ngày chỉ có văn bản
+                .GroupBy(x => x.Date)
+                .Select(g => new {
+                    Date = g.Key.ToString("yyyy-MM-dd"),
+                    TotalViewsNews = newsViews.FirstOrDefault(n => n.Date == g.Key)?.TotalViewsNews ?? 0,
+                    TotalViewsDocs = docViews.FirstOrDefault(d => d.Date == g.Key)?.TotalViewsDocs ?? 0
+                })
+                .OrderBy(x => x.Date)
+                .ToList<object>();
+
+            return combined;
         }
 
 

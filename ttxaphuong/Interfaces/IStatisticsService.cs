@@ -10,6 +10,9 @@ namespace ttxaphuong.Interfaces
         Task<int> GetTotalProceduresAsync();
         Task<int> GetTotalIntroducesAsync();
         Task<List<object>> GetNewsViewsByCategoryAsync();
-        Task<List<object>> GetNewsViewsOverTimeAsync();
+        //Task<List<object>> GetNewsViewsOverTimeAsync();
+
+        Task<List<object>> GetNewsAndDocumentsViewsOverTimeAsync();
     }
+
 }

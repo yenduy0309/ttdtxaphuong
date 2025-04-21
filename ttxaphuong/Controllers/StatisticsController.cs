@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ttxaphuong.Interfaces;
 
 namespace ttxaphuong.Controllers
@@ -76,12 +77,21 @@ namespace ttxaphuong.Controllers
             return Ok(categoryViews);
         }
 
+        //[HttpGet]
+        //[Authorize(Roles = "Admin,Manager")]
+        //public async Task<IActionResult> GetNewsViewsOverTime()
+        //{
+        //    var data = await _statisticsService.GetNewsViewsOverTimeAsync();
+        //    return Ok(data);
+        //}
+
         [HttpGet]
         [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> GetNewsViewsOverTime()
         {
-            var data = await _statisticsService.GetNewsViewsOverTimeAsync();
+            var data = await _statisticsService.GetNewsAndDocumentsViewsOverTimeAsync();
             return Ok(data);
         }
+
     }
 }
